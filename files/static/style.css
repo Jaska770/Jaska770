@@ -1,0 +1,120 @@
+.container-slide {
+    max-width: 100% !important;
+    height: 50vh;
+    overflow: hidden;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.slider-img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.order {
+    font-size: 30px;
+    cursor: pointer;
+    color: #333
+}
+
+.order:hover {
+    color: dodgerblue;
+}
+
+.quantity {
+    display: inline-block;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.arrows {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+    transition: .1s;
+}
+
+.arrows:hover {
+    opacity: .6;
+}
+
+.product-card img {
+    min-height: 30px;
+    padding: 10px;
+}
+
+.product-detail {
+    background: #f8f8f8;
+    border-radius: 10px;
+}
+
+.product-detail-image img {
+    max-height: 600px
+}
+
+.logo {
+
+    position: absolute;
+    width: 74px;
+    height: 40px;
+    left: 100px;
+    top: 34px;
+
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    color: #000000
+}
+
+
+.advantages {
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 95px;
+    padding: 0 100px;
+}
+
+.advantages__list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.btn_categories {
+    padding: 1rem 2.7rem;
+    border: 1px solid #333333;
+    color: #333333;
+    background-color: white;
+    transition: 1s;
+    margin: 7px;
+    border-radius: 3px;
+}
+
+.btn_categories:hover {
+    color: white;
+    background-color: #333333;
+    transition: 1s;
+    
+}
+
+.btn_drop{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btn_drop:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
